@@ -1,0 +1,13 @@
+.userList{
+    padding: 20px 0px;
+}
+.basketSection{
+    border: 1px solid black;
+    margin: 20px;
+}
+h1{
+    padding-left: 20px;
+}
+.basketSection p{
+    padding-left: 10px;
+}

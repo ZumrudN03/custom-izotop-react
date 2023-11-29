@@ -1,0 +1,60 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    .btns{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+        button{
+            background-color: orange;
+            padding: 15px 20px;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    .marketwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        .card {
+            border: 3px solid black;
+            width: 300px;
+            height: 350px;
+            padding: 20px;
+            img {
+                width: 200px;
+                height: 200px;              
+            }
+            .title{
+                font-size: 13px;
+                font-weight: 700;
+            }
+            .price{
+                font-size: 14px;
+            }
+            .desc{
+                font-size: 14px;
+                
+            }
+            .category{
+                background-color: blue;
+                color: white;
+                width: 150px;
+                font-weight: 600;
+                font-size: 17;
+                margin: auto;
+                text-align: center;
+            }
+        }
+    }
+
+}

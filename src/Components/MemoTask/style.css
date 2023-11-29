@@ -1,0 +1,14 @@
+.zumrudunSehifesi {
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+}
